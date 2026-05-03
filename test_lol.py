@@ -36,10 +36,10 @@ def get_random_headers():
         "Cache-Control": "no-cache"
     }
 
-API_ID = int(os.environ.get("API_ID", 1401388))
-API_HASH = os.environ.get("API_HASH", "089a340f2fd06aea683cbfb73pp")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN")
-CHANNEL_ID = -1002699890857
+API_ID = int(os.environ.get("API_ID", 34446649))
+API_HASH = os.environ.get("API_HASH", "8dc570c08d8e35e88fb9bfc73c65d7fa")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8735534617:AAFNBedzWsDRcsiw6GXBq7QAHbqJSJiDw0w")
+CHANNEL_ID = -1003951808679
 
 BLACKLIST_FILE = "blacklist.txt"
 
@@ -68,6 +68,11 @@ API_LIST = [
     "https://you-pom-lover.vercel.app/xvideos/10/stepdaughter",
     "https://you-pom-lover.vercel.app/xvideos/10/sister",
     "https://you-pom-lover.vercel.app/xvideos/10/bhabhi"
+    "https://you-pom-lover.vercel.app/xvideos/10/mom"
+    "https://you-pom-lover.vercel.app/xvideos/10/dad"
+    "https://you-pom-lover.vercel.app/xvideos/10/stepdad"
+    "https://you-pom-lover.vercel.app/xvideos/10/stepmom"
+    "https://you-pom-lover.vercel.app/xvideos/10/stepsister"
 ]
 
 async def fetch_api_data(session, api_url):
@@ -169,7 +174,7 @@ async def auto_post():
 
                         buttons = InlineKeyboardMarkup([
                             [InlineKeyboardButton("📽️ Watch online", url=video_url)],
-                            [InlineKeyboardButton("📺 Join Our Channel", url="https://t.me/Opleech_WD")]
+                            [InlineKeyboardButton("📺 Join Our Channel", url="https://t.me/log_ak_bot")]
                         ])
 
                         try:
